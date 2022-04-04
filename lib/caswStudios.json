@@ -1,0 +1,20 @@
+{
+        "logOptions": {
+                "logDirectory": "/home/aditya/log",
+                "fileNamePattern": "cawStudios-<DATE>.log",
+                "errorFileNamePattern": "cawStudios-error-<DATE>.log",
+                "dateFormat": "YYYY.MM.DD",
+                "maxSize": "50m",
+                "maxFiles": "30d",
+                "level": "all",
+                "logLevel": "silly",
+                "cloudWatch": {
+                        "logGroupName": "utec-stage-microservice-log-group",
+                        "logStreamName": "Utec-MS-Log-Stream-<DATE>",
+                        "region": "ap-south-1",
+                        "accessKeyId": "AKIA52RHZIP7W6BJQORU",
+                        "secretAccessKey": "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",
+                        "local": true
+                }
+        }
+}

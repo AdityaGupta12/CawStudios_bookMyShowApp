@@ -1,0 +1,28 @@
+{
+    "MySqlWriteInstance" : {
+    	"url": "localhost",
+ 		"database": "caw_studios",
+ 		"user": "root",
+ 		"pass": "Ad12s@ss",
+ 		"opts": "",
+    "maxPreparedStatements":500,
+		"connectionLimit" : ""
+    },
+    "MySqlReadInstance" : {
+        "url": "localhost",
+        "database": "caw_studios",
+        "user": "root",
+        "pass": "Ad12s@ss",
+        "opts": "",
+        "maxPreparedStatements":500,
+	      "connectionLimit" : ""
+    },
+    "MySqlReadPoolInstance" : {
+      "url": "localhost",
+      "database": "caw_studios",
+      "user": "root",
+      "pass": "Ad12s@ss",
+      "maxPreparedStatements": 500,
+      "opts": ""
+    }
+}
